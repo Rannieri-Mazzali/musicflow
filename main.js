@@ -1,3 +1,14 @@
+
+
+document.addEventListener("DOMContentLoaded", () => {
+
+ 
+
+
+
+
+
+
 const audio = document.getElementById("audio");
 const vinyl = document.getElementById("vinyl");
 const needle = document.getElementById("needle");
@@ -48,7 +59,7 @@ function loadAndPlay() {
   audio.src = tracks[currentTrack].url;
   audio.play();
   highlight(); 
-  
+
 }
 
 /* CONTROLS */
@@ -80,3 +91,4 @@ audio.addEventListener("ended", () => {
 /* INICIAL */
 audio.src = tracks[currentTrack].url;
 highlight();
+});
