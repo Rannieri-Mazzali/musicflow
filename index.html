@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Retro Country Vinyl</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="app">
+  <h1>🎸 Retro Country Vinyl</h1>
+
+  <div class="turntable">
+    <div class="vinyl" id="vinyl"></div>
+    <div class="needle" id="needle"></div>
+  </div>
+
+  <div class="controls">
+    <button id="playBtn">▶ Play</button>
+    <button id="pauseBtn">⏸ Pause</button>
+  </div>
+
+  <ul id="playlist"></ul>
+
+  <!-- áudio REAL -->
+  <audio id="audio" preload="metadata"></audio>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
